@@ -1,1 +1,5 @@
-I have mac mini and a windows machine at home. i want all my docker builds to happen in windows laptop so that i can keep my mac clean. how can i achieve that? Finally i want to uninstall docker desktop from mac and use only cli. all docker workloads must be in windows only. create a script that does the complete setup so that i can start using this.
+I have mac mini and a windows machine at home. 
+i want all my docker builds to happen in windows laptop so that i can keep my mac clean. 
+how can i achieve that? Finally i want to uninstall docker desktop from mac and use only cli. 
+all docker workloads must be in windows only. 
+create a script that does the complete setup so that i can start using this.
