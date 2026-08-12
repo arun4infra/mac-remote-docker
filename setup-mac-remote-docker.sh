@@ -52,7 +52,8 @@ if [[ -d "$HOME/.docker" ]]; then
 fi
 
 if [[ -d "$HOME/Library/Group Containers/group.com.docker" ]]; then
-  rm -rf "$HOME/Library/Group Containers/group.com.docker"
+  echo "Removing Docker Group Containers (may require manual cleanup)..."
+  rm -rf "$HOME/Library/Group Containers/group.com.docker" 2>/dev/null || echo "  Skipped (permission denied - manually remove via Finder if needed)"
 fi
 
 if [[ -f "/usr/local/bin/docker" ]] || [[ -f "/usr/local/bin/docker-compose" ]]; then
