@@ -16,6 +16,9 @@ Prerequisites:
   - Homebrew installed on macOS
   - OpenSSH server running on the Windows laptop
   - Docker available on the Windows laptop
+
+Tip: If your Windows machine doesn't have a .local DNS name, use its IP address
+instead (e.g., Dell@192.168.1.18). Run 'ipconfig' on Windows to find the IPv4 address.
 EOF
 }
 
