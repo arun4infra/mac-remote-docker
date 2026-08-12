@@ -1,0 +1,19 @@
+PS C:\Users\Dell\projects\win-docker> powershell -ExecutionPolicy Bypass -File .\setup-windows-docker.ps1 -WindowsUser Dell -WindowsHost winpc.local -InstallDockerDesktop -CreateFirewallRule
+Installing Docker Desktop for Windows via winget...
+Found an existing package already installed. Trying to upgrade the installed package...
+No available upgrade found.
+No newer package versions are available from the configured sources.
+Checking OpenSSH Server...
+OpenSSH Server is already installed.
+Configuring SSH service...
+Ensuring firewall rule for SSH port 22 exists...
+Firewall rule already exists.
+Dell is already in docker-users group.
+Docker CLI is available: Docker version 29.7.2, build a7dcaa6
+
+Windows setup complete. Use the following SSH address from your Mac:
+  Dell@winpc.local
+
+On the Mac, run the remote setup script and pass that address as the argument.
+Example: ./setup-mac-remote-docker.sh Dell@winpc.local
+PS C:\Users\Dell\projects\win-docker>
