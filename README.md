@@ -21,7 +21,7 @@ This workspace contains helper scripts to configure a macOS machine to use a Win
    .\setup-windows-docker.ps1 -WindowsUser Dell -WindowsHost winpc.local -InstallDockerDesktop -CreateFirewallRule
    ```
    Replace `Dell` and `winpc.local` with your actual Windows username and host/IP address.
-2. On the Windows machine, ensure the SSH server is accepting your Mac login and the Docker Desktop engine is running.
+2. On the Windows machine, ensure the SSH server is accepting your Mac login and the Docker Desktop engine is running. 
 3. On macOS, run:
    ```bash
    ./setup-mac-remote-docker.sh <your-windows-user>@<windows-hostname-or-ip>
